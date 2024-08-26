@@ -1,0 +1,58 @@
+.Buttons {
+    font-family: "BRFirma-Light", sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Buttons a {
+    margin-top: 30px;
+}
+
+.SeePortfolio {
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid white;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 9999px;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.SeePortfolio svg {
+    margin-left: 8px;
+}
+
+.SeePortfolio:hover svg {
+    fill: black;
+}
+
+.MakeOrder {
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid white;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 9999px;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.SeePortfolio:hover {
+    background-color: white;
+    color: black;
+}
+
+.MakeOrder:hover {
+    background-color: white;
+    color: black;
+}

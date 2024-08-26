@@ -1,0 +1,52 @@
+.Projetos h2 {
+    font-family: 'BRFirma-Bold', sans-serif;
+}
+
+.Projetos {
+    display: flex;
+    min-height: 100px;
+    height: auto;
+    font-family: 'BRFirma-Light', sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    height: 20vh;
+}
+
+.Projetos-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 50px;
+}
+
+.Projetos-item {
+    text-align: center;
+}
+
+.Projetos-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-color: #181818;
+    padding: 10px;
+    border-width: 140px;
+}
+
+.Projetos-logo img {
+    right: 150px;
+}
+
+@media (max-width: 768px) {
+    .Projetos {
+        height: 70vh;
+    }
+
+    .Projetos-container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }  
+}

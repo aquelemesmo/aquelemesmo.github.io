@@ -1,0 +1,52 @@
+.Footer {
+    height: 1px;
+    border-top: 1px solid #e9ecef;
+    margin-top: 25vh;
+    margin-bottom: 20vh;
+}
+
+.Footer-content {
+    text-align: center;
+    font-family: 'BRFirma-Light', sans-serif;
+    color: white;
+    margin-top: 50px;
+}
+
+.Footer-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.Effect-circle3 {
+    background-color: #0057FF;
+    position: absolute;
+    justify-content: end; 
+    right: 250px;
+    margin-top: 200px;
+    border-radius: 9999px; 
+    width: 140px; 
+    height: 140px;
+    filter: blur(100px);
+}
+
+.Effect3-circle3 {
+    background-color: #00D1FF;
+    position: absolute;
+    justify-content: end; 
+    right: 390px;
+    margin-top: 130px;
+    border-radius: 9999px; 
+    width: 100px; 
+    height: 100px;
+    filter: blur(80px);
+}
+
+@media screen {
+    .Effect-circle3 {
+        right: 100px;
+    }
+
+    .Effect3-circle3 {
+        right: 200px;
+    }
+}

@@ -1,0 +1,93 @@
+@keyframes moveDownAndFade {
+  0% {
+    opacity: 0;
+    transform: translateY(150px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.Header {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  gap: 50px;
+  transform: translateY(0);
+  animation: moveDownAndFade 1.25s ease forwards;
+}
+
+.Header-texts {
+  color: white;
+  font-size: 1.38rem;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Header h1 {
+  font-family: 'BRFirma-Black', sans-serif;
+}
+
+.Header p {
+  font-family: 'BRFirma-Light', sans-serif;
+}
+
+.Header-image {
+  max-height: 400px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.Effect-circle {
+  background-color: #0057FF;
+  position: absolute;
+  justify-content: end; 
+  right: 400px;
+  margin-top: 320px;
+  border-radius: 9999px; 
+  width: 140px; 
+  height: 140px;
+  filter: blur(130px);
+}
+
+
+.Effect2-circle {
+  background-color: #00D1FF;
+  position: absolute;
+  justify-content: end; 
+  right: 580px;
+  margin-top: 200px;
+  border-radius: 9999px; 
+  width: 80px; 
+  height: 80px;
+  filter: blur(80px);
+}
+
+@media (max-width: 768px) {
+  .Header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Header-texts {
+    font-size: 1.2rem;
+  }
+
+  .Header-image {
+    max-height: 300px;
+  }
+
+  .Effect-circle {
+    right: 200px;
+    margin-top: 200px;
+  }
+
+  .Effect2-circle {
+    right: 300px;
+    margin-top: 100px;
+  }
+}

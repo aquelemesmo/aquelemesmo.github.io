@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'BRFirma-Black';
+  src: url('/BRFirma-Black.ttf');
+}
+
+@font-face {
+  font-family: 'BRFirma-Light';
+  src: url('/BRFirma-Light.ttf');
+}
+
+@font-face {
+  font-family: 'BRFirma-Bold';
+  src: url('/BRFirma-Bold.ttf');
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'BRFirma-Black'
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+}

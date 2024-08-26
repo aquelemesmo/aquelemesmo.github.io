@@ -1,0 +1,53 @@
+.Languages h2 {
+    font-family: 'BRFirma-Bold', sans-serif;
+}
+
+.Languages {
+    display: flex;
+    height: auto;
+    font-family: 'BRFirma-Light', sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    height: 70vh;
+}
+
+.Languages-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Language-item {
+    text-align: center;
+}
+
+.Language-logo {
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-color: #181818; /* Fundo escuro para dar contraste */
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .Languages {
+        height: 70vh;
+    }
+
+    .Languages-container {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }  
+}
+
+@media (min-width: 768px) {
+    .Languages {
+        height: 70vh;
+    }
+
+    .Languages-container {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+}
